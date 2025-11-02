@@ -16,3 +16,8 @@ app.use(router)
 app.mount('#app')
 
 export { pinia }
+
+import './assets/main.css'
+import './assets/style.css'
+import { createApp } from 'vue'
+import { createPinia } from 'pinia'
