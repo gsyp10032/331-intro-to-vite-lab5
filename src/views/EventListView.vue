@@ -50,16 +50,7 @@ onMounted(() => {
 
 <template>
   <h1>Events For Good</h1>
-  <div style="margin-bottom: 20px">
-    <label>Items per page: </label>
-    <select :value="pageSize" @change="handlePageSizeChange">
-      <option value="1">1</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="5">5</option>
-    </select>
-  </div>
-  <div>
+  <div class="events">
     <div v-if="events" class="flex flex-col items-center">
       <EventCard v-for="event in events" :key="event.id" :event="event" />
       <div class="pagination">
@@ -86,21 +77,4 @@ onMounted(() => {
 
 <style scoped>
 
-.pagination {
-  display: flex;
-  width: 290px;
-}
-.pagination a {
-  flex: 1;
-  text-decoration: none;
-  color: #2c3e50;
-}
-
-#page-prev {
-  text-align: left;
-}
-
-#page-next {
-  text-align: right;
-}
 </style>
