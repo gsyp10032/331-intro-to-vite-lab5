@@ -3,18 +3,11 @@ export interface Event {
   category: string
   title: string
   description: string
-  localtion: string
+  location: string
   date: string
   time: string
   petsAllowed: boolean
   organizer: string
-}
-
-export interface Student {
-  id: number
-  name: string
-  surname: string
-  gpa: number
 }
 
 export interface MessageState {

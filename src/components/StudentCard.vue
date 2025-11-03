@@ -1,15 +1,17 @@
 <script setup lang="ts">
-import type { Student } from '@/types'
-
 defineProps<{
-  student: Student
+  student: {
+    name: string
+    surname: string
+    gpa: number
+  }
 }>()
 </script>
 
 <template>
   <div class="student-card">
-    <h2>{{ student.name }} {{ student.surname }}</h2>
-    <span>GPA: {{ student.gpa }}</span>
+    <h3>{{ student.name }} {{ student.surname }}</h3>
+    <p>GPA: {{ student.gpa }}</p>
   </div>
 </template>
 
@@ -21,9 +23,17 @@ defineProps<{
   border: 1px solid #39495c;
   margin-bottom: 18px;
 }
-
 .student-card:hover {
   transform: scale(1.01);
   box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+p {
+  font-size: 14px;
 }
 </style>

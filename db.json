@@ -1,0 +1,114 @@
+{
+  "events": [
+    {
+      "id": 5928101,
+      "category": "animal welfare",
+      "title": "Cat Adoption Day",
+      "description": "Find your new feline friend at this event.",
+      "location": "Meow Town",
+      "date": "January 28, 2022",
+      "time": "12:00",
+      "petsAllowed": true,
+      "organizer": "Kat Laydee"
+    },
+    {
+      "id": 4582797,
+      "category": "food",
+      "title": "Community Gardening",
+      "description": "Join us as we tend to the community edible plants.",
+      "location": "Flora City",
+      "date": "March 14, 2022",
+      "time": "10:00",
+      "petsAllowed": true,
+      "organizer": "Fern Pollin"
+    },
+    {
+      "id": 8419988,
+      "category": "sustainability",
+      "title": "Beach Cleanup",
+      "description": "Help pick up trash along the shore.",
+      "location": "Playa Del Carmen",
+      "date": "July 22, 2022",
+      "time": "11:00",
+      "petsAllowed": false,
+      "organizer": "Carey Wales"
+    },
+    {
+      "id": 1234567,
+      "category": "education",
+      "title": "Tech Workshop for Kids",
+      "description": "Learn basic coding skills in a fun environment.",
+      "location": "Innovation Center",
+      "date": "September 15, 2022",
+      "time": "14:00",
+      "petsAllowed": false,
+      "organizer": "Code Master"
+    },
+    {
+      "id": 2345678,
+      "category": "sports",
+      "title": "Marathon Training Session",
+      "description": "Get ready for the upcoming marathon with professional coaches.",
+      "location": "Central Park",
+      "date": "October 10, 2022",
+      "time": "07:00",
+      "petsAllowed": true,
+      "organizer": "Run Coach"
+    },
+    {
+      "id": 3456789,
+      "category": "arts",
+      "title": "Local Art Exhibition",
+      "description": "Showcase of talented local artists and their works.",
+      "location": "City Gallery",
+      "date": "November 5, 2022",
+      "time": "13:00",
+      "petsAllowed": false,
+      "organizer": "Art Curator"
+    },
+    {
+      "id": 4567890,
+      "category": "music",
+      "title": "Jazz Night Concert",
+      "description": "Evening of smooth jazz with local bands.",
+      "location": "Downtown Lounge",
+      "date": "December 20, 2022",
+      "time": "20:00",
+      "petsAllowed": false,
+      "organizer": "Music Promoter"
+    },
+    {
+      "id": 5678901,
+      "category": "business",
+      "title": "Startup Networking Event",
+      "description": "Connect with entrepreneurs and investors.",
+      "location": "Business Hub",
+      "date": "February 15, 2023",
+      "time": "18:00",
+      "petsAllowed": false,
+      "organizer": "Startup Incubator"
+    },
+    {
+      "id": 6789012,
+      "category": "education",
+      "title": "AI Workshop",
+      "description": "Learn about artificial intelligence and machine learning.",
+      "location": "Tech Center",
+      "date": "March 22, 2023",
+      "time": "15:00",
+      "petsAllowed": false,
+      "organizer": "Tech Educator"
+    },
+    {
+      "id": 7890123,
+      "category": "community",
+      "title": "Neighborhood Cleanup",
+      "description": "Work together to keep our neighborhood clean.",
+      "location": "Local Park",
+      "date": "April 10, 2023",
+      "time": "09:00",
+      "petsAllowed": true,
+      "organizer": "Community Leader"
+    }
+  ]
+}

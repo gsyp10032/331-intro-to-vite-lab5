@@ -5,7 +5,7 @@ export const useEventStore = defineStore('event', {
     event: null
   }),
   actions: {
-    setEvent(event: Event) {
+    setEvent(event: Event): void {
       this.event = event
     }
   }
